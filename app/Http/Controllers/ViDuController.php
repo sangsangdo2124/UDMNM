@@ -24,7 +24,13 @@ class ViDuController extends Controller{
     function vidu3(){
         return view('vidu3');
         }
+
+    function sang(){
+        return view('sang');
+        }
 }
+
+
 
 
 
