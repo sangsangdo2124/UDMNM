@@ -43,4 +43,9 @@ Route::get('/sach/chitietsach/{id}','App\Http\Controllers\ViduLayoutController@c
 Route::get('/sach', [ViduLayoutController::class, 'sach'])->name('vidusach.index');
 Route::get('/chitietsach/{id}', [ViduLayoutController::class, 'chitietsach'])->name('vidusach.chi_tiet');*/
 
+<<<<<<< HEAD
 Route::get('/sang','App\Http\Controllers\ViDuController@sang');
+=======
+//Tạo tên TinBui
+Route::get('/helloworld1', 'App\Http\Controllers\TinBui@tinbui');
+>>>>>>> f7c72570168a83055abdd03a5ab3f2d6c895dd1c
