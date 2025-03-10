@@ -36,6 +36,8 @@ Route::get('/sach/theloai/{id}','App\Http\Controllers\ViduLayoutController@thelo
 
 Route::get('/sach/chitietsach/{id}','App\Http\Controllers\ViduLayoutController@chitietsach');
 
+Route::get('/Thoa','App\Http\Controllers\ViduController@Thoa');
+
 /*Route::get('/sach/{id}', [ViduLayoutController::class, 'chitietsach'])->name('chitietsach');
 
 //use App\Http\Controllers\ViduLayoutController;
