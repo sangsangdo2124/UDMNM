@@ -21,13 +21,10 @@ class ViDuController extends Controller{
         return "Kết quả là: ".$ket_qua;
     }
 
-<<<<<<< HEAD
     function Thoa(){
         return view('Thoa');
         }
     
-    }
-=======
     function vidu3(){
         return view('vidu3');
         }
@@ -36,7 +33,7 @@ class ViDuController extends Controller{
         return view('sang');
         }
 }
->>>>>>> deb53c820bc4d072a4f2d13e7e5126c640f4a4e8
+
 
 
 
