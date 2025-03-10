@@ -42,3 +42,5 @@ Route::get('/sach/chitietsach/{id}','App\Http\Controllers\ViduLayoutController@c
 
 Route::get('/sach', [ViduLayoutController::class, 'sach'])->name('vidusach.index');
 Route::get('/chitietsach/{id}', [ViduLayoutController::class, 'chitietsach'])->name('vidusach.chi_tiet');*/
+
+Route::get('/vidu3','App\Http\Controllers\ViDuController@vidu3');

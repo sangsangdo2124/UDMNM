@@ -13,13 +13,17 @@ class ViDuController extends Controller{
         return view('vidu2');
         }
     
-        function tinhtong(Request $request)
+    function tinhtong(Request $request)
     {
         $so_a = $request->input("so_a");
         $so_b = $request->input("so_b");
         $ket_qua = $so_a+$so_b;
         return "Kết quả là: ".$ket_qua;
     }
+
+    function vidu3(){
+        return view('vidu3');
+        }
 }
 
 
